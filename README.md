@@ -44,4 +44,34 @@ npm run dev
 - Vite ⚡
 - Chart.js 📈
 
+## 📁 Project Structure
+
+```
+smart-monitor-energy-distribution-system/
+├── src/
+│   ├── components/
+│   │   ├── AdvancedVisualization.tsx
+│   │   ├── AlertManagement.tsx
+│   │   ├── CarbonFootprint.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── EnergySavingAutomation.tsx
+│   │   ├── HistoricalData.tsx
+│   │   ├── PowerManagement.tsx
+│   │   ├── PredictiveAnalytics.tsx
+│   │   └── SensorCard.tsx
+│   ├── utils/
+│   │   └── sensorSimulator.ts
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── types.ts
+│   └── vite-env.d.ts
+├── public/
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
+
 Happy coding! 🎉👨‍💻
